@@ -23,7 +23,7 @@ API that you create.
 
 ### Project Requirements
 
-1. Your app must be a HTML/CSS/JS frontend that accesses data from an API created with JSON-Server.
+1. Your app must be a HTML/CSS/JS frontend that accesses data from an API created with `json-server`.
    All interactions between the client and the API should be handled
    asynchronously and use JSON as the communication format.
 
@@ -38,9 +38,9 @@ API that you create.
 
 ### Stretch Goals
 
-4. Create multiple associated resources for your JSON-Server, following the [documentation](https://github.com/typicode/json-server#relationships).  
+4. Create multiple associated resources for your `json-server`, following the [documentation](https://github.com/typicode/json-server#relationships).  
   Take a look this example [`db.json`](https://github.com/learn-co-curriculum/js-quotes-practice/blob/master/db.json).
-5. Populate the data in your `db.json` file from an external API. 
+5. Populate the data in your `db/seeds.json` file from an external API. 
 
 ## Strategy, Timeline, and Tips
 
@@ -50,7 +50,7 @@ API that you create.
 - Develop user stories
   - “As [ a user ], I want [ to perform this action ] so that [ I can accomplish this goal ].”
   - Features should not need you there to explain them to users
-- Plan out the structure of your resource(s) within the `db.json` file
+- Plan out the structure of your resource(s) within the `db/seeds.json` file
 
 ### Project Pitches
 
@@ -108,7 +108,7 @@ also recommend the following to help stay organized and on track:
 
 - Describe/sketch your ideas (use diagrams!).
 - Start by creating a frontend directory with the basic files you'll need (HTML, CSS, JS)
-- Next, build enough of your `db.json` to get some data to work with in JS. Don't worry about
+- Next, build enough of your `db/seeds.json` to get some data to work with in JS. Don't worry about
   building all of your async code yet, just get to the point where you can
   access one endpoint on your API, then start working on getting that data
   displayed.

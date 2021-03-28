@@ -1,52 +1,158 @@
 {
-  "toys": [
+  "books": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "author": "Chinua Achebe",
+      "country": "Nigeria",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+      "pages": 209,
+      "title": "Things Fall Apart",
+      "year": 1958,
+      "likes": 0
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "author": "Hans Christian Andersen",
+      "country": "Denmark",
+      "language": "Danish",
+      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
+      "pages": 784,
+      "title": "Fairy tales",
+      "year": 1836,
+      "likes": 0
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "author": "Dante Alighieri",
+      "country": "Italy",
+      "language": "Italian",
+      "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
+      "pages": 928,
+      "title": "The Divine Comedy",
+      "year": 1315,
+      "likes": 0
     },
     {
       "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "author": "Jane Austen",
+      "country": "United Kingdom",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "pages": 226,
+      "title": "Pride and Prejudice",
+      "year": 1813,
+      "likes": 0
     },
     {
       "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "author": "Samuel Beckett",
+      "country": "Republic of Ireland",
+      "language": "French, English",
+      "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
+      "pages": 256,
+      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "year": 1952,
+      "likes": 0
     },
     {
       "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "author": "Giovanni Boccaccio",
+      "country": "Italy",
+      "language": "Italian",
+      "link": "https://en.wikipedia.org/wiki/The_Decameron",
+      "pages": 1024,
+      "title": "The Decameron",
+      "year": 1351,
+      "likes": 0
     },
     {
       "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "author": "Jorge Luis Borges",
+      "country": "Argentina",
+      "language": "Spanish",
+      "link": "https://en.wikipedia.org/wiki/Ficciones",
+      "pages": 224,
+      "title": "Ficciones",
+      "year": 1965,
       "likes": 0
     },
     {
       "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "author": "Albert Camus",
+      "country": "Algeria, French Empire",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
+      "pages": 185,
+      "title": "The Stranger",
+      "year": 1942,
+      "likes": 0
+    },
+    {
+      "id": 9,
+      "author": "Miguel de Cervantes",
+      "country": "Spain",
+      "language": "Spanish",
+      "link": "https://en.wikipedia.org/wiki/Don_Quixote",
+      "pages": 1056,
+      "title": "Don Quijote De La Mancha",
+      "year": 1610,
+      "likes": 0
+    },
+    {
+      "id": 10,
+      "author": "Geoffrey Chaucer",
+      "country": "England",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+      "pages": 544,
+      "title": "The Canterbury Tales",
+      "year": 1450,
+      "likes": 0
+    },
+    {
+      "id": 11,
+      "author": "Anton Chekhov",
+      "country": "Russia",
+      "language": "Russian",
+      "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
+      "pages": 194,
+      "title": "Stories",
+      "year": 1886,
+      "likes": 0
+    },
+    {
+      "id": 12,
+      "author": "Joseph Conrad",
+      "country": "United Kingdom",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Nostromo",
+      "pages": 320,
+      "title": "Nostromo",
+      "year": 1904,
+      "likes": 0
+    },
+    {
+      "id": 13,
+      "author": "Charles Dickens",
+      "country": "United Kingdom",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "pages": 194,
+      "title": "Great Expectations",
+      "year": 1861,
+      "likes": 0
+    },
+    {
+      "id": 14,
+      "author": "Denis Diderot",
+      "country": "France",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
+      "pages": 596,
+      "title": "Jacques the Fatalist",
+      "year": 1796,
+      "likes": 0
     }
   ]
 }

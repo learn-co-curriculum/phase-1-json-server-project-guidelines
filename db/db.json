@@ -1,158 +1,75 @@
 {
-  "books": [
+  "states": [
+    {
+      "name": "California",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/320px-Flag_of_California.svg.png",
+      "description": "California is a state on the west coast of the United States. With over 39.3 million residents across a total area of approximately 163,696 square miles (423,970 km2), it is the most populous state and the third-largest state by area. It is also the most populated subnational entity in North America and the 34th most populous in the world. The Greater Los Angeles area and the San Francisco Bay Area are the nation's second and fifth most populous urban regions respectively, with the former having more than 18.7 million residents and the latter having over 9.6 million. Sacramento is the state's capital, while Los Angeles is the most populous city in the state and the second most populous city in the country. Los Angeles County is the country's most populous, while San Bernardino County is the largest county by area in the country. San Francisco, which is both a city and county, is the second most densely populated major city in the country and the fifth most densely populated county in the country, behind four of New York City's five boroughs.",
+      "visits": 0,
+      "id": 1
+    },
+    {
+      "name": "Alabama",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/320px-Flag_of_Alabama.svg.png",
+      "description": "Alabama is a state in the Southeastern region of the United States, bordered by Tennessee to the north; Georgia to the east; Florida and the Gulf of Mexico to the south; and Mississippi to the west. Alabama is the 30th largest by area and the 24th-most populous of the U.S. states. With a total of 1,500 miles (2,400 km) of inland waterways, Alabama has among the most of any state.",
+      "visits": 0,
+      "id": 2
+    },
+    {
+      "name": "New Jersey",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/320px-Flag_of_New_Jersey.svg.png",
+      "description": "New Jersey is a state in the Mid-Atlantic and Northeastern regions of the United States. It is bordered on the north and east by the state of New York; on the east, southeast, and south by the Atlantic Ocean; on the west by the Delaware River and Pennsylvania; and on the southwest by Delaware Bay and the State of Delaware. New Jersey is the fourth-smallest state by area but the 11th-most populous, with 8,882,190 residents as of 2019 and an area of 8,722.58 square miles, making it the most densely populated of the 50 U.S. states. The capital is Trenton, while the largest city is Newark. All but one county in New Jersey lie within the combined statistical areas of New York City or Philadelphia; consequently, the state's largest metropolitan area falls within Greater New York.",
+      "visits": 0,
+      "id": 3
+    },
+    {
+      "name": "Florida",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/320px-Flag_of_Florida.svg.png",
+      "description": "Florida is a state located in the Southeastern region of the United States. With a population of over 21 million, Florida is the third-most populous and the 22nd-most extensive of the 50 United States. The state is bordered to the west by the Gulf of Mexico, to the northwest by Alabama, to the north by Georgia, to the east by the Atlantic Ocean, and to the south by the Straits of Florida. The state's capital is Tallahassee and its most populous municipality is Jacksonville. The Miami metropolitan area, with a population of almost 6.2 million, is the most populous urban area in Florida and the seventh-most populous in the United States. Other urban areas in the state with a population of more than one million are Tampa Bay, Orlando, and Jacksonville. Florida's $1.0 trillion economy is the fourth-largest of any U.S. state, and if it were a country, Florida would be the 16th-largest economy in the world.",
+      "visits": 0,
+      "id": 4
+    },
+    {
+      "name": "New York (state)",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/320px-Flag_of_New_York.svg.png",
+      "description": "New York is a state in the Mid-Atlantic and Northeastern regions of the United States. It was one of the original thirteen colonies forming the United States. With a total area of 54,556 square miles (141,300 km2), New York is the 27th largest state; its population of more than 19 million people as of 2020 makes it the fourth most populous state in the U.S. The state is bordered by New Jersey and Pennsylvania to the south and Connecticut, Massachusetts, and Vermont to the east; it has a maritime border with Rhode Island, east of Long Island, as well as an international border with the Canadian provinces of Quebec to the north and Ontario to the northwest. It is sometimes referred to as New York State to distinguish it from New York City, which is its largest city.",
+      "visits": 0,
+      "id": 5
+    },
+    {
+      "name": "Nevada",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/320px-Flag_of_Nevada.svg.png",
+      "description": "Nevada is a state in the Western region of the United States. It is bordered by Oregon to the northwest, Idaho to the northeast, California to the west, Arizona to the southeast, and Utah to the east. Nevada is the 7th-most extensive, the 19th-least populous, and the 9th-least densely populated of the U.S. states. Nearly three-quarters of Nevada's people live in Clark County, which contains the Las Vegas–Paradise metropolitan area, including three of the state's four largest incorporated cities. Nevada's capital is Carson City.",
+      "visits": 0,
+      "id": 6
+    },
+    {
+      "name": "Wyoming",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/320px-Flag_of_Wyoming.svg.png",
+      "description": "Wyoming is a state in the Mountain West region of the United States. The 10th largest state by area, it is also the least populous and least densely populated state in the contiguous United States. It is bordered by Montana to the north and northwest, South Dakota and Nebraska to the east, Idaho to the west, Utah to the southwest, and Colorado to the south. The state population was estimated at 578,759 in 2019. The state capital and the most populous city is Cheyenne, which had an estimated population of 63,957 in 2018.",
+      "visits": 0,
+      "id": 7
+    },
+    {
+      "name": "Montana",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/320px-Flag_of_Montana.svg.png",
+      "description": "Montana is a state in the Mountain West region of the United States. It is bordered by Idaho to the west; North Dakota and South Dakota to the east; Wyoming to the south; and by the Canadian provinces of Alberta, British Columbia, and Saskatchewan to the north. It is the fourth-largest state by area, the eighth-least populous state, and the third-least densely populated state. The western half of Montana contains numerous mountain ranges, while the eastern half is characterized by western prairie terrain and badlands, with more mountain ranges found throughout the state. In all, 77 named ranges are part of the Rocky Mountains.",
+      "visits": 0,
+      "id": 8
+    },
+    {
+      "name": "Idaho",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/320px-Flag_of_Idaho.svg.png",
+      "description": "Idaho is a state in the Pacific Northwest region of the United States. It borders the state of Montana to the east and northeast, Wyoming to the east, Nevada and Utah to the south, and Washington and Oregon to the west. To the north, it shares a small portion of the Canadian border with the province of British Columbia. With a population of approximately 1.7 million and an area of 83,570 square miles (216,400 km2), Idaho is the 14th largest, the 12th least populous and the 7th least densely populated of the 50 U.S. states. The state's capital and largest city is Boise.",
+      "visits": 0,
+      "id": 9
+    }
+  ],
+  "comments": [
     {
       "id": 1,
-      "author": "Chinua Achebe",
-      "country": "Nigeria",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
-      "pages": 209,
-      "title": "Things Fall Apart",
-      "year": 1958,
-      "likes": 0
-    },
-    {
-      "id": 2,
-      "author": "Hans Christian Andersen",
-      "country": "Denmark",
-      "language": "Danish",
-      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
-      "pages": 784,
-      "title": "Fairy tales",
-      "year": 1836,
-      "likes": 0
-    },
-    {
-      "id": 3,
-      "author": "Dante Alighieri",
-      "country": "Italy",
-      "language": "Italian",
-      "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
-      "pages": 928,
-      "title": "The Divine Comedy",
-      "year": 1315,
-      "likes": 0
-    },
-    {
-      "id": 4,
-      "author": "Jane Austen",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
-      "pages": 226,
-      "title": "Pride and Prejudice",
-      "year": 1813,
-      "likes": 0
-    },
-    {
-      "id": 5,
-      "author": "Samuel Beckett",
-      "country": "Republic of Ireland",
-      "language": "French, English",
-      "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
-      "pages": 256,
-      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-      "year": 1952,
-      "likes": 0
-    },
-    {
-      "id": 6,
-      "author": "Giovanni Boccaccio",
-      "country": "Italy",
-      "language": "Italian",
-      "link": "https://en.wikipedia.org/wiki/The_Decameron",
-      "pages": 1024,
-      "title": "The Decameron",
-      "year": 1351,
-      "likes": 0
-    },
-    {
-      "id": 7,
-      "author": "Jorge Luis Borges",
-      "country": "Argentina",
-      "language": "Spanish",
-      "link": "https://en.wikipedia.org/wiki/Ficciones",
-      "pages": 224,
-      "title": "Ficciones",
-      "year": 1965,
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "author": "Albert Camus",
-      "country": "Algeria, French Empire",
-      "language": "French",
-      "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
-      "pages": 185,
-      "title": "The Stranger",
-      "year": 1942,
-      "likes": 0
-    },
-    {
-      "id": 9,
-      "author": "Miguel de Cervantes",
-      "country": "Spain",
-      "language": "Spanish",
-      "link": "https://en.wikipedia.org/wiki/Don_Quixote",
-      "pages": 1056,
-      "title": "Don Quijote De La Mancha",
-      "year": 1610,
-      "likes": 0
-    },
-    {
-      "id": 10,
-      "author": "Geoffrey Chaucer",
-      "country": "England",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
-      "pages": 544,
-      "title": "The Canterbury Tales",
-      "year": 1450,
-      "likes": 0
-    },
-    {
-      "id": 11,
-      "author": "Anton Chekhov",
-      "country": "Russia",
-      "language": "Russian",
-      "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
-      "pages": 194,
-      "title": "Stories",
-      "year": 1886,
-      "likes": 0
-    },
-    {
-      "id": 12,
-      "author": "Joseph Conrad",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Nostromo",
-      "pages": 320,
-      "title": "Nostromo",
-      "year": 1904,
-      "likes": 0
-    },
-    {
-      "id": 13,
-      "author": "Charles Dickens",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Great_Expectations",
-      "pages": 194,
-      "title": "Great Expectations",
-      "year": 1861,
-      "likes": 0
-    },
-    {
-      "id": 14,
-      "author": "Denis Diderot",
-      "country": "France",
-      "language": "French",
-      "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
-      "pages": 596,
-      "title": "Jacques the Fatalist",
-      "year": 1796,
-      "likes": 0
+      "stateId": 0,
+      "title": "string",
+      "entries": 0
     }
   ]
 }

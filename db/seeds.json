@@ -5,16 +5,10 @@
       "name": "state",
       "flag": "image",
       "description": "string" ,
-      "visits": 0
+      "visits": 0, 
+      "comments": {}
     }
     
-  ], 
+  ] 
 
-  "comments": [{
-
-    "id": 1, 
-    "stateId": 0, 
-    "title": "string", 
-    "entries": 0 
-  }]
 }

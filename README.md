@@ -1,4 +1,4 @@
-# JSON Server Template
+# Phase 1 Project Guidelines
 
 ## Learning Goals
 
